@@ -4,7 +4,7 @@ import { CORE_CONCEPTS } from './data.js';
 import Header from './components/Header/Header.jsx';
 import CoreConcept from './components/CoreConcept.jsx';
 import TabButton from './components/TabButton.jsx';
-import { EXAMPLES } from './data.js'; 
+import { EXAMPLES } from './data.js';
 
 function App() {
   const [selectedTopic, setSelectedTopic] = useState();
@@ -17,7 +17,7 @@ function App() {
 
   console.log('APP COMPONENT EXECUTING');
 
-  let tabContent = <p>Pleacscse select a topic.</p>;
+  let tabContent = <p>Please select a topic.</p>;
 
   if (selectedTopic) {
     tabContent = (
